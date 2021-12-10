@@ -12,21 +12,21 @@ html {
     width: 1.2rem;
   }
   &::-webkit-scrollbar-thumb {
-    height: 10rem;
-    background-color: #ccc;
-    border: 3px solid white;
+    background-color: #888;
+    border: 3px solid #ccc;
     border-radius: 6px;
   }
   &::-webkit-scrollbar-track {
-    background-color: white;
+    border-radius: 2rem;
+    background-color: #ccc;
   }
 }
 body {
-  // font-family: $main-font;
+  font-family: $main-font;
   font-weight: 400;
   line-height: 1.5;
   font-size: 1.6rem;
-  // background-color: $light-gray-color;
+  background-color: $light-gray-color;
 }
 a {
   text-decoration: none;
@@ -37,9 +37,12 @@ ul {
 h1,
 h2,
 h3 {
-  // color: $text-title-color;
+  color: $text-title-color;
 }
 
 p {
-  // color: $text-main-color;
+  color: $text-main-color;
+}
+.app {
+  height: 200vh;
 }
