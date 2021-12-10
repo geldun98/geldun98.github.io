@@ -82,8 +82,8 @@ p {
   font-size: 2.5rem;
 }
 .navbar-logo img {
-  width: 5rem;
-  height: 5rem;
+  width: 4rem;
+  height: 4rem;
   object-fit: cover;
   border-radius: 100%;
 }
@@ -98,7 +98,16 @@ p {
   justify-content: space-around;
 }
 .navbar-item {
-  margin-right: 2rem;
+  margin-right: 4rem;
+}
+.navbar-item span,
+.navbar-item i {
+  color: #333;
+  font-weight: 600;
+}
+.navbar-item:hover span,
+.navbar-item:hover i {
+  color: #ec1839;
 }
 .navbar-item:last-child {
   margin-right: 0;

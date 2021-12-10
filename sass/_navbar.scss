@@ -18,8 +18,8 @@
     display: flex;
     align-items: center;
     img {
-      width: 5rem;
-      height: 5rem;
+      width: 4rem;
+      height: 4rem;
       object-fit: cover;
       border-radius: 100%;
     }
@@ -38,7 +38,18 @@
     justify-content: space-around;
   }
   &-item {
-    margin-right: 2rem;
+    margin-right: 4rem;
+    span,
+    i {
+      color: $black-text-color;
+      font-weight: 600;
+    }
+  }
+  &-item:hover {
+    span,
+    i {
+      color: $red-color;
+    }
   }
   &-item:last-child {
     margin-right: 0;
