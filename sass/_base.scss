@@ -1,0 +1,45 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  &::-webkit-scrollbar {
+    width: 1.2rem;
+  }
+  &::-webkit-scrollbar-thumb {
+    height: 10rem;
+    background-color: #ccc;
+    border: 3px solid white;
+    border-radius: 6px;
+  }
+  &::-webkit-scrollbar-track {
+    background-color: white;
+  }
+}
+body {
+  // font-family: $main-font;
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 1.6rem;
+  // background-color: $light-gray-color;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+h1,
+h2,
+h3 {
+  // color: $text-title-color;
+}
+
+p {
+  // color: $text-main-color;
+}
