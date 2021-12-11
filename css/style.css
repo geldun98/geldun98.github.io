@@ -62,6 +62,7 @@ p {
 
 .navbar {
   position: fixed;
+  z-index: 100;
   top: 0;
   left: 0;
   width: 100%;
@@ -111,6 +112,66 @@ p {
 }
 .navbar-item:last-child {
   margin-right: 0;
+}
+
+.toeic {
+  width: 100%;
+  height: 100vh;
+  padding-top: 9rem;
+  text-align: center;
+}
+.toeic-title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+.toeic-demo {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.toeic-demo video {
+  width: 33rem;
+  height: auto;
+}
+.toeic-button {
+  color: white;
+  font-weight: 600;
+  font-size: 2.5rem;
+  padding: 1rem 5rem;
+  background-color: #3498db;
+  border-radius: 1rem;
+  box-shadow: 0 1rem 2rem 0 #0662a0;
+}
+
+.words1000 {
+  width: 100%;
+  height: 100vh;
+  padding-top: 9rem;
+  text-align: center;
+}
+.words1000-title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+.words1000-demo {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.words1000-demo video {
+  width: 33rem;
+  height: auto;
+}
+.words1000-button {
+  color: white;
+  font-weight: 600;
+  font-size: 2.5rem;
+  padding: 1rem 5rem;
+  background-color: #e74c3c;
+  border-radius: 1rem;
+  box-shadow: 0 1rem 2rem 0 #c0392b;
 }
 
 /*# sourceMappingURL=style.css.map */
