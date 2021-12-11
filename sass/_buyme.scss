@@ -1,0 +1,25 @@
+.buyme {
+  padding-top: 9rem;
+  &-title {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+  }
+  &-content {
+    span {
+      font-weight: 400;
+      font-size: 2rem;
+      display: block;
+      font-family: 'Times New Roman', Times, serif;
+    }
+  }
+  &-donate {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding: 2rem;
+    display: inline-block;
+    font-weight: 600;
+    border: 1rem solid #e74c3c;
+  }
+}

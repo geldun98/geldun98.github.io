@@ -174,4 +174,108 @@ p {
   box-shadow: 0 1rem 2rem 0 #c0392b;
 }
 
+.vuatiengviet {
+  width: 100%;
+  height: 100vh;
+  padding-top: 9rem;
+  text-align: center;
+}
+.vuatiengviet-title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+.vuatiengviet-demo {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.vuatiengviet-demo video {
+  width: 33rem;
+  height: auto;
+}
+.vuatiengviet-button {
+  color: white;
+  font-weight: 600;
+  font-size: 2.5rem;
+  padding: 1rem 5rem;
+  background-color: #e67e22;
+  border-radius: 1rem;
+  box-shadow: 0 1rem 2rem 0 #d35400;
+}
+
+.idioms {
+  padding-top: 9rem;
+}
+.idioms-title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+.idioms-image {
+  text-align: center;
+}
+.idioms-image img {
+  width: 40rem;
+  margin-bottom: 2rem;
+}
+.idioms-name {
+  margin-top: 2rem;
+  font-weight: 500;
+  font-size: 3rem;
+}
+.idioms-content {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+  font-size: 2.1rem;
+  margin-bottom: 1rem;
+}
+.idioms-example {
+  font-weight: 600;
+  font-size: 3rem;
+}
+.idioms-example-eng {
+  text-align: start;
+  font-weight: 500;
+}
+.idioms-example-vi {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2rem;
+  color: #2980b9;
+}
+.idioms-seemore {
+  color: white;
+  background-color: red;
+  padding: 1rem 3rem;
+  display: inline-block;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-weight: 600;
+  border-radius: 1rem;
+}
+
+.buyme {
+  padding-top: 9rem;
+}
+.buyme-title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+.buyme-content span {
+  font-weight: 400;
+  font-size: 2rem;
+  display: block;
+  font-family: "Times New Roman", Times, serif;
+}
+.buyme-donate {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding: 2rem;
+  display: inline-block;
+  font-weight: 600;
+  border: 1rem solid #e74c3c;
+}
+
 /*# sourceMappingURL=style.css.map */

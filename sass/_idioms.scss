@@ -1,0 +1,53 @@
+.idioms {
+  padding-top: 9rem;
+
+  &-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: center;
+  }
+  &-image {
+    text-align: center;
+    img {
+      width: 40rem;
+      margin-bottom: 2rem;
+    }
+  }
+
+  &-name {
+    margin-top: 2rem;
+    font-weight: 500;
+    font-size: 3rem;
+  }
+  &-content {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 2.1rem;
+    margin-bottom: 1rem;
+  }
+  &-example {
+    font-weight: 600;
+    font-size: 3rem;
+
+    &-eng {
+      text-align: start;
+      font-weight: 500;
+    }
+    &-vi {
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 2rem;
+      color: #2980b9;
+    }
+  }
+  &-seemore {
+    color: white;
+    background-color: red;
+    padding: 1rem 3rem;
+    display: inline-block;
+
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
+    border-radius: 1rem;
+  }
+}
